@@ -18,8 +18,8 @@ class ListRecentProjects extends StatelessWidget {
       width: size.width * 0.9,
       child: Wrap(
         alignment: WrapAlignment.center,
-        spacing: myLittlePadding(size),
-        runSpacing: myLittlePadding(size),
+        spacing: myLittlePadding(size)*1.5,
+        runSpacing: myLittlePadding(size)*1.5,
         children: List.generate(
           recentProject.length,
           (index) => RecentProjectCard(

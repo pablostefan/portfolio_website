@@ -35,7 +35,7 @@ class GlassContent extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "Ola, eu sou",
+                    "Olá, eu sou",
                     style: TextStyle(
                       fontSize: fontSizeMean(size),
                       fontWeight: FontWeight.bold,

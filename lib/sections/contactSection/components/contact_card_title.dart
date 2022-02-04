@@ -23,7 +23,7 @@ class ContactCardTitle extends StatelessWidget {
         boxShadow: [boxShadown],
       ),
       child: Transform.translate(
-        offset: Offset(0, size.height * 0.025),
+        offset: Offset(0, size.height * 0.020),
         child: Row(
           children: [
             const Spacer(),
