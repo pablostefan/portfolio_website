@@ -17,28 +17,28 @@ class ContactButtons extends StatelessWidget {
       children: [
         MyButton(
           size: size,
-          imageSrc: "images/git_icon.png",
+          imageSrc: "assets/images/git_icon.png",
           text: "GitHub",
           press: () => htlmOpenGitHub,
           color: const Color.fromARGB(255, 255, 130, 130),
         ),
         MyButton(
           size: size,
-          imageSrc: "images/linkedin.png",
+          imageSrc: "assets/images/linkedin.png",
           text: "LinkedIn",
           press: () => htlmOpenLinkedin,
           color: const Color.fromARGB(255, 34, 115, 253),
         ),
         MyButton(
           size: size,
-          imageSrc: "images/email.png",
+          imageSrc: "assets/images/email.png",
           text: " E-mail",
           press: () => htlmOpenEmail,
           color: const Color.fromARGB(255, 245, 200, 110),
         ),
         MyButton(
           size: size,
-          imageSrc: "images/whatsapp-icon.png",
+          imageSrc: "assets/images/whatsapp-icon.png",
           text: "WhatsApp",
           press: () => htlmOpenWhatsApp,
           color: const Color.fromARGB(255, 50, 255, 77),

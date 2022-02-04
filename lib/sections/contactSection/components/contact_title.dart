@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio_website/constants.dart';
+import '../../../constants.dart';
 import '../../../models/MyTitle.dart';
 
 class ContactTitle extends StatelessWidget {

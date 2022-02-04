@@ -164,7 +164,7 @@ double myLittlePadding(Size size) {
 }
 
 double personImage(Size size) {
-  return (size.height * size.width) / (size.height + size.width);
+  return (size.height * size.width) / (size.height + size.width) * 1.1;
 }
 
 double serviceBox(Size size) {

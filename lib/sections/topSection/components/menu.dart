@@ -64,7 +64,7 @@ class _MenuState extends State<Menu> {
             Navigator.of(context).push(
               CustomPageRoute(
                 child: const AboutPage(
-                  icon: "images/my_icon.png",
+                  icon: "assets/images/my_icon.png",
                   title: "Sobre",
                   text: aboutMeText,
                   subTitle: "Minha apresentação",

@@ -10,23 +10,23 @@ class Certicate {
 List<Certicate> certificates = [
   Certicate(
     title: "WAVE3D - Uso da Prototipagem Rápida na Construção de Embarcações",
-    cetificateImage: "images/CERTIFICADO_PROEX.png",
+    cetificateImage: "assets/images/CERTIFICADO_PROEX.png",
   ),
   Certicate(
     title: "Programação em python do básico ao avançado",
-    cetificateImage: "images/certificado_python.jpg",
+    cetificateImage: "assets/images/certificado_python.jpg",
   ),
   Certicate(
     title: "URA - Um Robô por Aluno",
-    cetificateImage: "images/CERTIFICADO_PROEX_1.png",
+    cetificateImage: "assets/images/CERTIFICADO_PROEX_1.png",
   ),
   Certicate(
     title: "IBERO - Latin American Congress on Computational Methods in Engineering",
-    cetificateImage: "images/Certificado.jpg",
+    cetificateImage: "assets/images/Certificado.jpg",
   ),
   Certicate(
     title: "WVC 2017 - XIII Workshop de Visão Computacional",
-    cetificateImage: "images/CERTIFICADO_PROEX_2.png",
+    cetificateImage: "assets/images/CERTIFICADO_PROEX_2.png",
   ),
   
 ];

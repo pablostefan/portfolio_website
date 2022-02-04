@@ -15,7 +15,7 @@ class AboutImage extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(horizontal: size.width*.02),
       child: Image.asset(
-        "images/developer.png",
+        "assets/images/developer.png",
         height: aboutImage(size),
         alignment: Alignment.topCenter,
       ),

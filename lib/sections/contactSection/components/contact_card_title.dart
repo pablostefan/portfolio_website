@@ -28,7 +28,7 @@ class ContactCardTitle extends StatelessWidget {
           children: [
             const Spacer(),
             Image.asset(
-              "images/my_icon.png",
+              "assets/images/my_icon.png",
               height: contactIcon(size),
             ),
             Text(
