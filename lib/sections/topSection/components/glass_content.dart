@@ -64,7 +64,7 @@ class GlassContent extends StatelessWidget {
               SizedBox(
                 width: size.width * 0.22,
                 child: Text(
-                  """Sou aluno de Ciências e tecnologia na Universidade Federal do Rio Grande do Norte, esse é meu portifólio feito com Flutter aqui estão minhas principais informações.""",
+                  """Sou aluno de Ciências e tecnologia na Universidade Federal do Rio Grande do Norte, esse é meu portfólio feito com Flutter aqui estão minhas principais informações.""",
                   style: TextStyle(
                     fontSize: fontSizeMean(size),
                     fontWeight: FontWeight.bold,
