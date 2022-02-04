@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "eamodio.gitlens",
+        "dart-code.flutter",
+        "nash.awesome-flutter-snippets",
+        "jeroen-meijer.pubspec-assist",
+        "aaron-bond.better-comments",
+        "coenraads.bracket-pair-colorizer-2",
+        "formulahendry.code-runner",
+        "naumovs.color-highlight",
+        "adpyke.codesnap",
+        "dart-code.dart-code",
+        "bendixma.dart-data-class-generator",
+        "usernamehw.errorlens"
+    ]
+}
