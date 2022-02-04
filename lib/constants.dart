@@ -164,10 +164,7 @@ double myLittlePadding(Size size) {
 }
 
 double personImage(Size size) {
-  if (size.width < 1000) {
-    return (size.height * size.width) / (size.height + size.width);
-  }
-  return (size.height * size.width) / (size.height + size.width) * 1.17;
+  return (size.height * size.width) / (size.height + size.width);
 }
 
 double serviceBox(Size size) {
@@ -253,4 +250,5 @@ Maior desempenho: As aplicações criadas com Flutter possuem um maior desempenh
 const String aboutTextDev =
     """Desenvolvedor Full Stack apaixonado pela profissão. Atualmente desenvolvendo aplicativos móveis e websites, em Flutter (framework multiplataforma da Google) e Firebase (plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web), poderosas tecnologias multiplataforma da Google.""";
 
-const String aboutTextLife = """Formando em Ciências e Tecnologia, durante a faculdade me apaixonei pela área de softwares. Atleta de Judôs desde os sete anos de idade, esporte que ajudou muito na minha formação pessoal, que tem a tradução literal, caminho da suavidade, significa não ir pelo caminho mais fácil e sim deixar o caminho mais suave, com treino e esforço.""";
+const String aboutTextLife =
+    """Formando em Ciências e Tecnologia, durante a faculdade me apaixonei pela área de softwares. Atleta de Judôs desde os sete anos de idade, esporte que ajudou muito na minha formação pessoal, que tem a tradução literal, caminho da suavidade, significa não ir pelo caminho mais fácil e sim deixar o caminho mais suave, com treino e esforço.""";
