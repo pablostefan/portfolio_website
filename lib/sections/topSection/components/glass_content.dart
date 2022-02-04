@@ -47,7 +47,7 @@ class GlassContent extends StatelessWidget {
                     style: TextStyle(
                       fontSize: fontSizeTitle(size),
                       fontWeight: FontWeight.bold,
-                      color: const Color.fromARGB(255, 255, 0, 0),
+                      color: Colors.amber,
                     ),
                   ),
                   Text(
