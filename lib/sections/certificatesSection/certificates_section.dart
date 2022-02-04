@@ -26,7 +26,6 @@ class CertificatesSection extends StatelessWidget {
           child: Column(
             children: [
               const Spacer(
-                flex: 2,
               ),
               MyTitle(
                 size: size,
@@ -34,11 +33,10 @@ class CertificatesSection extends StatelessWidget {
                 subTitle: "Certificados de conhecimentos",
                 color: myBlue,
               ),
-              const Spacer(flex: 2),
+              const Spacer(),
               CertificateList(
                 size: size,
               ),
-              const Spacer(flex: 3),
             ],
           ),
         ),
