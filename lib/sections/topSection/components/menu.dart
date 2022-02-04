@@ -89,9 +89,9 @@ class _MenuState extends State<Menu> {
                 right: 0,
                 bottom: hoverIndex == index
                     ? size.width > 600
-                        ? -20
+                        ? -22
                         : -5
-                    : -50,
+                    : -55,
                 child: Image.asset("assets/images/Hover.png"),
               ),
               Text(

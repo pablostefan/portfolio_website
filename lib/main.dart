@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'My Portfolio',
+      title: 'Pablo Stefan',
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
