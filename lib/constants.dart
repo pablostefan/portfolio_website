@@ -7,7 +7,7 @@ const myYellow = Color.fromARGB(255, 255, 212, 131);
 const myPink = Color.fromARGB(255, 255, 184, 184);
 const myYellowButton = Color.fromRGBO(241, 201, 107, 1);
 const duration = Duration(milliseconds: 400);
-const pageDuration = Duration(milliseconds: 400);
+const pageDuration = Duration(seconds: 1);
 // BoxShadowns
 final boxShadown = BoxShadow(
   offset: const Offset(30, 20),
@@ -66,89 +66,89 @@ void htlmOpenProject(String link) {
 
 // Fonsts Sizes
 double fontSizeMean(Size size) {
-  return (size.height * size.width) / (size.height + size.width) * 0.04;
+  return (size.height * size.width) / (size.height + size.width) * .04;
 }
 
 double fontSizeLittle(Size size) {
-  return (size.height * size.width) / (size.height + size.width) * 0.03;
+  return (size.height * size.width) / (size.height + size.width) * .03;
 }
 
 double fontSizeBig(Size size) {
-  return (size.height * size.width) / (size.height + size.width) * 0.07;
+  return (size.height * size.width) / (size.height + size.width) * .07;
 }
 
 double fontSizeTitle(Size size) {
-  return (size.height * size.width) / (size.height + size.width) * 0.2;
+  return (size.height * size.width) / (size.height + size.width) * .2;
 }
 
 double fastontSizeTitle(Size size) {
-  return size.width * 0.015;
+  return size.width * .015;
 }
 
 // Image size
 double myButtonImage(Size size) {
-  return (size.height * size.width) / (size.height + size.width) * 0.07;
+  return (size.height * size.width) / (size.height + size.width) * .07;
 }
 
 double imageWorkCardHihg(Size size) {
   if (size.width < 425 && size.width > 390) {
-    return (size.height * size.width) / (size.height + size.width) * 0.28;
+    return (size.height * size.width) / (size.height + size.width) * .28;
   }
-  return (size.height * size.width) / (size.height + size.width) * 0.35;
+  return (size.height * size.width) / (size.height + size.width) * .35;
 }
 
 double imageWorkCardWidth(Size size) {
-  return (size.height * size.width) / (size.height + size.width) * 0.6;
+  return (size.height * size.width) / (size.height + size.width) * .6;
 }
 
 double myIconSize(Size size) {
-  return (size.height * size.width) / (size.height + size.width) * 0.3;
+  return (size.height * size.width) / (size.height + size.width) * .3;
 }
 
 // About Section Contants
 // Image
 double aboutImage(Size size) {
-  return size.height * size.width * 0.00017;
+  return size.height * size.width * .00017;
 }
 
 // Signature
 double aboutSignatureFont(Size size) {
-  return size.height * size.width * 0.00004;
+  return size.height * size.width * .00004;
 }
 
 double aboutSignatureImage(Size size) {
-  return size.height * size.width * 0.00013;
+  return size.height * size.width * .00013;
 }
 
 // List Service Card
 double serciCardMargin(Size size) {
-  return size.width * 0.01;
+  return size.width * .01;
 }
 
 double imageServiceCard(Size size) {
-  return (size.height * size.width) / (size.height + size.width) * 0.3;
+  return (size.height * size.width) / (size.height + size.width) * .3;
 }
 
 // Recent Work Section
 // Hire me Card
 double hireMeCard(Size size) {
   if (size.width <= 1000) {
-    return size.width * 0.56;
+    return size.width * .56;
   } else {
-    return size.width * 0.45;
+    return size.width * .45;
   }
 }
 
 double hireMeImage(Size size) {
-  return (size.height * size.width) / (size.height + size.width) * 0.1;
+  return (size.height * size.width) / (size.height + size.width) * .1;
 }
 
 double hireMePadding(Size size) {
-  return size.height * 0.02;
+  return size.height * .02;
 }
 
 double hireMeDivider(Size size) {
-  return size.height * 0.1;
+  return size.height * .1;
 }
 
 bool removeText(Size size) {
@@ -160,7 +160,7 @@ bool removeText(Size size) {
 }
 
 double myLittlePadding(Size size) {
-  return size.height * size.width * 0.000023;
+  return size.height * size.width * .000023;
 }
 
 double personImage(Size size) {
@@ -172,7 +172,7 @@ double serviceBox(Size size) {
 }
 
 double buttonPadding(Size size) {
-  return (size.height * size.width) / (size.height + size.width) * 0.03;
+  return (size.height * size.width) / (size.height + size.width) * .03;
 }
 
 // Contac Section
