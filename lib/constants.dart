@@ -167,7 +167,7 @@ double personImage(Size size) {
   if (size.width < 1000) {
     return (size.height * size.width) / (size.height + size.width);
   }
-  return (size.height * size.width) / (size.height + size.width) * 1.2;
+  return (size.height * size.width) / (size.height + size.width) * 1.17;
 }
 
 double serviceBox(Size size) {

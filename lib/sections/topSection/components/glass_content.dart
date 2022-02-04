@@ -73,7 +73,7 @@ class GlassContent extends StatelessWidget {
                 ),
               ),
               Spacer(
-                flex: size.width >= 600 ? 100 : 8,
+                flex: size.width >= 600 ? 50 : 8,
               ),
             ],
           ),
