@@ -40,7 +40,7 @@ void htlmOpenLinkedin() {
 
 void htlmOpenCurriculo() {
   String url =
-      'https://drive.google.com/file/d/1q1fLWo3hQVI2uvrfD-o5apAo6p8FBl5u/view?usp=sharing';
+      'https://drive.google.com/file/d/1tz9cmMUZR_lNEjX8aAlXtcCto-xYiBi8/view?usp=sharing';
   html.window.open(url, 'curriculo');
 }
 
