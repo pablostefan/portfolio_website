@@ -92,7 +92,7 @@ class AboutPage extends StatelessWidget {
                     ),
                     textAlign: TextAlign.justify,
                   ),
-                  const Spacer(),
+                  const Spacer(flex: 2),
                 ],
               ),
             ),
