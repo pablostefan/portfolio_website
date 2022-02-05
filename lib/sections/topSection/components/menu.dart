@@ -78,7 +78,7 @@ class _MenuState extends State<Menu> {
           setState(() => value ? hoverIndex = index : hoverIndex = -1);
         },
         child: SizedBox(
-          width: size.width * 0.14,
+          width: size.width < 430 ? size.width * .17 : size.width * .15,
           height: size.height * 0.06,
           child: Stack(
             alignment: Alignment.center,
@@ -88,10 +88,10 @@ class _MenuState extends State<Menu> {
                 left: 0,
                 right: 0,
                 bottom: hoverIndex == index
-                    ? size.width > 600
-                        ? -22
+                    ? size.width > 800
+                        ? -26
                         : -5
-                    : -55,
+                    : -60,
                 child: Image.asset("assets/images/Hover.png"),
               ),
               Text(

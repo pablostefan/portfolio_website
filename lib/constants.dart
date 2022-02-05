@@ -193,7 +193,7 @@ double contactImage(Size size) {
 }
 
 double contactIcon(Size size) {
-  return (size.height * size.width) / (size.height + size.width) * 1.3;
+  return (size.height * size.width) / (size.height + size.width)*0.15;
 }
 
 //Texts
