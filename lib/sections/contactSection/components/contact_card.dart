@@ -27,7 +27,7 @@ class ContacCard extends StatelessWidget {
           ContactCardTitle(size: size),
           const Spacer(flex: 2),
           ContactInfo(size: size),
-          const Spacer(flex: 2,),
+          const Spacer(),
           ContactButtons(size: size),
           const Spacer(),
         ],
