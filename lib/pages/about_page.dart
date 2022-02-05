@@ -24,7 +24,7 @@ class AboutPage extends StatelessWidget {
         decoration: const BoxDecoration(
           color: Color.fromARGB(255, 247, 244, 244),
           image: DecorationImage(
-            image: AssetImage("images/bg_about_page.png"),
+            image: AssetImage("assets/images/bg_about_page.png"),
             fit: BoxFit.cover,
             opacity: 0.4,
           ),
