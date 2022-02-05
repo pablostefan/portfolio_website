@@ -251,4 +251,4 @@ const String aboutTextDev =
     """Desenvolvedor Full Stack apaixonado pela profissão. Atualmente desenvolvendo aplicativos móveis e websites, em Flutter (framework multiplataforma da Google) e Firebase (plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web), poderosas tecnologias multiplataforma da Google.""";
 
 const String aboutTextLife =
-    """Formando em Ciências e Tecnologia, durante a faculdade me apaixonei pela área de softwares. Atleta de Judôs desde os sete anos de idade, esporte que ajudou muito na minha formação pessoal, que tem a tradução literal, caminho da suavidade, significa não ir pelo caminho mais fácil e sim deixar o caminho mais suave, com treino e esforço.""";
+    """Formando em Ciências e Tecnologia, durante a faculdade me apaixonei pela área de softwares. Atleta de judô, esporte que ajudou muito na minha formação pessoal, que tem a tradução literal, caminho da suavidade, significa não ir pelo caminho mais fácil e sim deixar o caminho mais suave, com treino e esforço.""";
