@@ -69,7 +69,7 @@ class AboutPage extends StatelessWidget {
                 horizontal: fontSizeMean(size),
               ),
               width: size.width * .7,
-              height: size.height * .6,
+              height: size.height * .48,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(15),
@@ -92,7 +92,7 @@ class AboutPage extends StatelessWidget {
                     ),
                     textAlign: TextAlign.justify,
                   ),
-                  const Spacer(flex: 2),
+                  const Spacer(),
                 ],
               ),
             ),

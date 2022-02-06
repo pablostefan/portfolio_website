@@ -209,11 +209,10 @@ Fui bolsista voluntário em vários projetos de extensão, como por exemplo, o p
 Tive várias experiências em programação e prototipagem no projeto URA, onde fiquei responsável pela confecção e manutenção do material usado nas aulas do projeto. Em minha atuação como gestor de projeto no WAVE 3D, fiquei responsável pela parte de software, aplicando metodologias ágeis para o melhor funcionamento e qualidade dos trabalhos, atuei com Arduino, linguagens C++ e Python, GPS, PIC, confecção de placas de circuitos impressos e documentação de todos os trabalhos realizados.""";
 
 const String uiUxDesing =
-    """UX: Significa User Experience, isto é, experiência do Usuário, trata-se de um conjunto de elementos e fatores relacionados à interação que o usuário faz com o produto ou serviço. User Experience contempla desde o interesse, as pesquisas e a compra de um produto, pelo usuário. Dessa forma, o principal papel do UX Designer é se preocupar com cada etapa na qual o usuário interage com o produto ou serviço, fazendo com que a interação ocorra da melhor forma possível. 
-
-O objetivo do UX Design é auxiliar o seu usuário a realizar ações em seu site ou produto. Nesse sentido, sua função é identificar o que o seu cliente valoriza, precisa e deseja na hora de comprar e utilizar certo produto/serviço. Para isso, os UX Designers fazem perguntas e entrevistas, observam pessoas, criam protótipos e fazem testes para validar (ou não) suas propostas de negócios. Em seguida, o UX Design remove todo atrito para que o usuário tenha sucesso em seu projeto e fideliza-lo, por meio da sua interface. As pessoas podem ser atraídas ao site ou aplicativo devido às ações que podem realizar. 
+    """UX: Significa User Experience, isto é, experiência do Usuário, trata-se de um conjunto de elementos e fatores relacionados à interação que o usuário faz com o produto ou serviço. User Experience contempla desde o interesse, as pesquisas e a compra de um produto, pelo usuário. Dessa forma, o principal papel do UX Designer é se preocupar com cada etapa na qual o usuário interage com o produto ou serviço, fazendo com que a interação ocorra da melhor forma possível. O objetivo do UX Design é auxiliar o seu usuário a realizar ações em seu site ou produto. Nesse sentido, sua função é identificar o que o seu cliente valoriza, precisa e deseja na hora de comprar e utilizar certo produto/serviço.
 
 UI: Significa User Interface, em português, Interface do Usuário, nesse sentido, ela representa tudo o que é utilizado na interação com um produto, sendo a intermediária visual ou não, entre o usuário e dispositivo. Dessa forma, o UI Designer é responsável principalmente pela criação de interfaces funcionais, as quais permitem que usuário navegue intuitivamente por toda sua jornada. UI Design é mais focado em interfaces. Ainda que não seja limitado às interfaces gráficas de computadores e dispositivos móveis.
+
 
 Referência: https://www.liferay.com/pt/resources/l/user-experience""";
 
@@ -221,8 +220,6 @@ const String python =
     """Python é uma linguagem de programação poderosa que pode ser usada para desenvolvimento da web, sistemas operacionais, IA, aprendizado de máquina, computação numérica, aplicativos móveis e desenvolvimento de jogos. O recente aumento no uso do Python deve-se em grande parte à sua sintaxe simples e a facilidade de seu uso, o que a torna relativamente fácil de aprender, mesmo por iniciantes e não programadores.
 
 A robusta biblioteca padrão do Python o torna perfeito para construir sistemas operacionais inteiros. O design orientado a objetos da linguagem garante que grandes projetos sejam facilmente gerenciados. Python é compatível com a maioria dos sistemas operacionais e pode ser facilmente usado para construir aplicativos nativos para computadores Windows e Mac.
-
-Python oferece várias opções para projetos complexos de desenvolvimento para web. HTML e JavaScript são as principais linguagens usadas para construir o front-end de um aplicativo. Mas estruturas da web baseadas em Python como Django, Pyramid e Flask são usadas para lidar com back-end ou funcionalidade do lado do servidor de sites e serviços como Spotify, Reddit e Mozilla. 
 
 O ecossistema Python oferece inúmeras ferramentas e bibliotecas que ajudam cientistas e pesquisadores em computação científica e numérica. SciPy é um conjunto de pacotes para matemática, ciências e engenharia Pandas é uma biblioteca usada para análise de dados e modelagem IPython é um shell interativo forte que fornece edição e gravação sem complicações de uma sessão de trabalho e ajuda na visualização e computação paralela. FreeCAD e Abaqus são aplicativos numéricos e científicos da vida real construídos com Python.
 
@@ -235,8 +232,6 @@ A linguagem SQL é utilizada de maneira relativamente parecida entre os principa
 
 Um banco de dados é uma coleção organizada de informações ou dados, estruturadas, armazenadas eletronicamente em um sistema de computador. Um banco de dados é controlado por um sistema de gerenciamento de banco de dados (DBMS). Os dados e o DBMS, juntamente com os aplicativos associados a eles, são chamados de sistema de banco de dados, geralmente abreviados para apenas banco de dados.
 
-Os dados nos tipos mais comuns de bancos de dados em operação atualmente são modelados em linhas e colunas em uma série de tabelas para tornar o processamento e a consulta de dados eficientes. Os dados podem ser facilmente acessados, gerenciados, modificados, atualizados, controlados e organizados. A maioria dos bancos de dados usa a linguagem de consulta estruturada (SQL) para escrever e consultar dados.
-
 Referência: https://www.oracle.com/br/database/what-is-database/""";
 
 const String flutter =
@@ -244,13 +239,7 @@ const String flutter =
 
 Ao criar um aplicativo com o Flutter, seu código acaba sendo compilado para a linguagem base do dispositivo, ou seja, as aplicações são realmente nativas e por isso conseguem acessar recursos do dispositivo sem ajuda de terceiros e com o desempenho maior. Diversas são as características do Flutter. Dentre elas podemos citar:
 
-Multiplataforma: Podemos desenvolver aplicações com Flutter em qualquer sistema operacional (Windows, Linux e MacOS);
-
-Criação de aplicações nativas a partir de um único código base - Com o Flutter é possível desenvolvermos aplicações nativas para Android e iOS;
-
-Acesso direto aos recursos nativos do sistema: Uma aplicação criada com Flutter possui acesso nativo aos recursos do dispositivo (câmera, wifi, memória);
-
-Maior desempenho: As aplicações criadas com Flutter possuem um maior desempenho quando comparadas ao React Native, por exemplo, pois todo seu código-fonte é transformado em código nativo.
+Multiplataforma, podemos desenvolver aplicações com Flutter em qualquer sistema operacional (Windows, Linux e MacOS); Criação de aplicações nativas a partir de um único código base, com o Flutter é possível desenvolvermos aplicações nativas para Android e iOS; Acesso direto aos recursos nativos do sistema, uma aplicação criada com Flutter possui acesso nativo aos recursos do dispositivo (câmera, wifi, memória); Maior desempenho, as aplicações criadas com Flutter possuem um maior desempenho quando comparadas ao React Native, por exemplo, pois todo seu código fonte é transformado em código nativo.
 
 Referência: https://www.flutterparainiciantes.com.br/""";
 
@@ -272,5 +261,6 @@ const String aboutApi =
     """API é um termo para designar uma interface de comunicação que um sistema oferece para que outros acessem suas funções, dados e recursos sem que o software ou plataforma externa precise saber como eles foram implementados. Trata-se de um conjunto de rotinas e padrões muito utilizados na web para facilitar a integração entre diferentes sites e aplicativos. O Google Maps, por exemplo, fornece uma API para que outros produtos utilizem os mapas em seus serviços.
 
 As APIs também são utilizadas em vários outros tipos de softwares. Em sistemas operacionais, por exemplo, os programadores podem utilizar recursos da API interna para criar janelas, manipular dados, entre outras funcionalidades. Uma API bem construída e documentada tem como principal vantagem oferecer uma integração simplificada dos recursos entre várias plataformas, facilitando sua manutenção e provendo uma maior segurança às regras de negócio e outras funções importantes do sistema.
+
 
 Referência: https://tecnoblog.net/""";
