@@ -5,6 +5,8 @@ const myBlue = Color.fromARGB(255, 136, 255, 245);
 const myGreen = Color.fromARGB(255, 114, 255, 168);
 const myYellow = Color.fromARGB(255, 255, 212, 131);
 const myPink = Color.fromARGB(255, 255, 184, 184);
+const myBlue2 = Color.fromARGB(255, 0, 128, 128);
+const myBlue3 = Color.fromARGB(255, 10, 117, 173);
 const myYellowButton = Color.fromRGBO(241, 201, 107, 1);
 const duration = Duration(milliseconds: 400);
 const pageDuration = Duration(seconds: 1);
@@ -193,7 +195,7 @@ double contactImage(Size size) {
 }
 
 double contactIcon(Size size) {
-  return (size.height * size.width) / (size.height + size.width)*0.15;
+  return (size.height * size.width) / (size.height + size.width) * 0.15;
 }
 
 //Texts
@@ -212,7 +214,9 @@ const String uiUxDesing =
 O objetivo do UX Design é auxiliar o seu usuário a realizar ações em seu site ou produto. Nesse sentido, sua função é identificar o que o seu cliente valoriza, precisa e deseja na hora de comprar e utilizar certo produto/serviço. Para isso, os UX Designers fazem perguntas e entrevistas, observam pessoas, criam protótipos e fazem testes para validar (ou não) suas propostas de negócios. Em seguida, o UX Design remove todo atrito para que o usuário tenha sucesso em seu projeto e fideliza-lo, por meio da sua interface. As pessoas podem ser atraídas ao site ou aplicativo devido às ações que podem realizar. 
 
 UI: Significa User Interface, em português, Interface do Usuário, nesse sentido, ela representa tudo o que é utilizado na interação com um produto, sendo a intermediária visual ou não, entre o usuário e dispositivo. Dessa forma, o UI Designer é responsável principalmente pela criação de interfaces funcionais, as quais permitem que usuário navegue intuitivamente por toda sua jornada. UI Design é mais focado em interfaces. Ainda que não seja limitado às interfaces gráficas de computadores e dispositivos móveis.
-""";
+
+Referência: https://www.liferay.com/pt/resources/l/user-experience""";
+
 const String python =
     """Python é uma linguagem de programação poderosa que pode ser usada para desenvolvimento da web, sistemas operacionais, IA, aprendizado de máquina, computação numérica, aplicativos móveis e desenvolvimento de jogos. O recente aumento no uso do Python deve-se em grande parte à sua sintaxe simples e a facilidade de seu uso, o que a torna relativamente fácil de aprender, mesmo por iniciantes e não programadores.
 
@@ -221,7 +225,8 @@ A robusta biblioteca padrão do Python o torna perfeito para construir sistemas 
 Python oferece várias opções para projetos complexos de desenvolvimento para web. HTML e JavaScript são as principais linguagens usadas para construir o front-end de um aplicativo. Mas estruturas da web baseadas em Python como Django, Pyramid e Flask são usadas para lidar com back-end ou funcionalidade do lado do servidor de sites e serviços como Spotify, Reddit e Mozilla. 
 
 O ecossistema Python oferece inúmeras ferramentas e bibliotecas que ajudam cientistas e pesquisadores em computação científica e numérica. SciPy é um conjunto de pacotes para matemática, ciências e engenharia Pandas é uma biblioteca usada para análise de dados e modelagem IPython é um shell interativo forte que fornece edição e gravação sem complicações de uma sessão de trabalho e ajuda na visualização e computação paralela. FreeCAD e Abaqus são aplicativos numéricos e científicos da vida real construídos com Python.
-""";
+
+Referência: https://br.atsit.in/archives/110078""";
 
 const String sql =
     """SQL é uma linguagem padrão para trabalhar com bancos de dados relacionais. Ela é uma linguagem declarativa e que não necessita de profundos conhecimentos de programação para que alguém possa começar a escrever queries, as consultas e pedidos, que trazem resultados de acordo com o que você está buscando. SQL significa Standard Query Language, literalmente a linguagem padrão para realizar queries.
@@ -231,7 +236,8 @@ A linguagem SQL é utilizada de maneira relativamente parecida entre os principa
 Um banco de dados é uma coleção organizada de informações ou dados, estruturadas, armazenadas eletronicamente em um sistema de computador. Um banco de dados é controlado por um sistema de gerenciamento de banco de dados (DBMS). Os dados e o DBMS, juntamente com os aplicativos associados a eles, são chamados de sistema de banco de dados, geralmente abreviados para apenas banco de dados.
 
 Os dados nos tipos mais comuns de bancos de dados em operação atualmente são modelados em linhas e colunas em uma série de tabelas para tornar o processamento e a consulta de dados eficientes. Os dados podem ser facilmente acessados, gerenciados, modificados, atualizados, controlados e organizados. A maioria dos bancos de dados usa a linguagem de consulta estruturada (SQL) para escrever e consultar dados.
-""";
+
+Referência: https://www.oracle.com/br/database/what-is-database/""";
 
 const String flutter =
     """Criado pelo Google, o Flutter é um Framework para o desenvolvimento de aplicativos mobile para Android, iOS e Web, muito utilizado atualmente no mercado, inclusive é a linguagem utilizada por esse site. Flutter possui como linguagem base o Dart, grandes empresas estão apostando no Flutter, como: Google, Alibaba, Groupon, Nubank, Google entre outras. Um dos grandes motivos para esta aposta é justamente a forma com que o Flutter funciona para criação de aplicações.
@@ -245,10 +251,26 @@ Criação de aplicações nativas a partir de um único código base - Com o Flu
 Acesso direto aos recursos nativos do sistema: Uma aplicação criada com Flutter possui acesso nativo aos recursos do dispositivo (câmera, wifi, memória);
 
 Maior desempenho: As aplicações criadas com Flutter possuem um maior desempenho quando comparadas ao React Native, por exemplo, pois todo seu código-fonte é transformado em código nativo.
-""";
+
+Referência: https://www.flutterparainiciantes.com.br/""";
 
 const String aboutTextDev =
     """Desenvolvedor Full Stack apaixonado pela profissão. Atualmente desenvolvendo aplicativos móveis e websites, em Flutter (framework multiplataforma da Google) e Firebase (plataforma desenvolvida pelo Google para a criação de aplicativos móveis e da web), poderosas tecnologias multiplataforma da Google.""";
 
 const String aboutTextLife =
     """Formando em Ciências e Tecnologia, durante a faculdade me apaixonei pela área de softwares. Atleta de judô, esporte que ajudou muito na minha formação pessoal, que tem a tradução literal, caminho da suavidade, significa não ir pelo caminho mais fácil e sim deixar o caminho mais suave, com treino e esforço.""";
+
+const String aboutGit =
+    """Git é um sistema de controle de versão Open Source, utilizado para a criação de um histórico de versões em código fonte de projetos de desenvolvimento de software. Foi desenvolvido por Linus Torvalds, o criador do sistema operacional Linux. Por meio de sua utilização, podemos saber quais foram as alterações realizadas, quem fez cada uma das alterações e baixar essas mudanças em nossa máquina. Se necessário, revertê-las para uma versão anterior.
+
+O Github é um repositório remoto, criado como um serviço online de hospedagem de repositórios do Git. Funciona como um servidor que agrega todas as modificações realizadas por cada uma das pessoas envolvidas em um projeto, unificando as diferentes versões de código e seus históricos, permitindo compartilhamento entre as equipes. Além disso, o GitHub também conta com várias integrações com outros serviços online, permitindo o deploy automático de aplicação. Assim, garante a integração contínua e facilita o desenvolvimento.
+
+Microsoft comprou o GitHub. A desenvolvedora do Windows encerrou seu próprio concorrente, o Codeplex, em dezembro de 2017, e agora é o principal contribuidor do GitHub. Nos últimos anos, o GitHub se tornou a principal rede social para o desenvolvimento de software, sendo que existem vários projetos open source hospedados na plataforma, que aceitam a colaboração de qualquer profissional.
+
+Referência: https://blog.betrybe.com/tecnologia/git-e-github/""";
+const String aboutApi =
+    """API é um termo para designar uma interface de comunicação que um sistema oferece para que outros acessem suas funções, dados e recursos sem que o software ou plataforma externa precise saber como eles foram implementados. Trata-se de um conjunto de rotinas e padrões muito utilizados na web para facilitar a integração entre diferentes sites e aplicativos. O Google Maps, por exemplo, fornece uma API para que outros produtos utilizem os mapas em seus serviços.
+
+As APIs também são utilizadas em vários outros tipos de softwares. Em sistemas operacionais, por exemplo, os programadores podem utilizar recursos da API interna para criar janelas, manipular dados, entre outras funcionalidades. Uma API bem construída e documentada tem como principal vantagem oferecer uma integração simplificada dos recursos entre várias plataformas, facilitando sua manutenção e provendo uma maior segurança às regras de negócio e outras funções importantes do sistema.
+
+Referência: https://tecnoblog.net/""";

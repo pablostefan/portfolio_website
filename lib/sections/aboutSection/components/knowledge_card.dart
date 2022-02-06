@@ -58,7 +58,7 @@ class _KnowledgeCardState extends State<KnowledgeCard> {
           children: [
             const Spacer(),
             AnimatedContainer(
-              padding: EdgeInsets.all(buttonPadding(widget.size)),
+              padding: EdgeInsets.all(buttonPadding(widget.size) * .3),
               duration: duration,
               height: imageServiceCard(widget.size) / 2,
               width: imageServiceCard(widget.size) / 2,
