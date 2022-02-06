@@ -14,7 +14,7 @@ class ListKnowledgeCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Wrap(
-      spacing: myLittlePadding(size)*2,
+      spacing: myLittlePadding(size)*3,
       runSpacing: myLittlePadding(size)*.5,
       alignment: WrapAlignment.center,
       children: List.generate(

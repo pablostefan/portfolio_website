@@ -77,6 +77,7 @@ class _KnowledgeCardState extends State<KnowledgeCard> {
               knowledge[widget.index].title,
               style: TextStyle(
                 fontSize: fontSizeLittle(widget.size),
+                fontWeight: FontWeight.bold,
               ),
             ),
             const Spacer(),

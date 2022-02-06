@@ -69,7 +69,7 @@ class AboutPage extends StatelessWidget {
                 horizontal: fontSizeMean(size),
               ),
               width: size.width * .7,
-              height: size.height * .52,
+              height: size.height * .6,
               decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(15),
