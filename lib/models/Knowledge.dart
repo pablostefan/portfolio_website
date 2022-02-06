@@ -41,13 +41,13 @@ List<Knowledge> knowledge = [
   ),
   Knowledge(
     title: "API",
-    image: "images/api.png",
+    image: "assets/images/api.png",
     color: myPink,
     text: aboutApi,
   ),
   Knowledge(
     title: "Git/GitHub",
-    image: "images/octocat.png",
+    image: "assets/images/octocat.png",
     color: myBlue2,
     text: aboutGit,
   ),
