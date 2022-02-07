@@ -28,5 +28,9 @@ List<Certicate> certificates = [
     title: "WVC 2017 - XIII Workshop de Visão Computacional",
     cetificateImage: "assets/images/CERTIFICADO_PROEX_2.png",
   ),
+   Certicate(
+    title: "Minicurso de Design UX/UI",
+    cetificateImage: "assets/images/UX_UI.jpg",
+  ),
   
 ];
